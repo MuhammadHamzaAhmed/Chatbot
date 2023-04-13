@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:  
+  bot_db:
+    image: mysql:latest
+    restart: always
+    container_name: BOT_DATABASE_CONTAINER
+    ports:
+      - "3307:3307"
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: BotDB
+    volumes:
+      - ./db/chatbot.sql:/docker-entrypoint-initdb.d/chatbot.sql
+
+  chatbot:
+    container_name: Form_Flask_Container
+    restart: always
+    build: chatbot
+    ports:
+      - "5005:5000"
+    volumes:
+      - ./chatbot:/chatbot
+    depends_on:
+      - bot_db

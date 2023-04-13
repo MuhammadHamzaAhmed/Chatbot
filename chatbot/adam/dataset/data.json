@@ -1,0 +1,1202 @@
+[
+  {
+    "context": "In this module MonetX is fetching data of configured IP on the network devices physical interfaces SVi and Virtual interfaces LIKE  HSRP, VRRP & LB virtual IP. It is also s the interface description, vlan name, subnet, Subnets mask and the status of the physical interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured. Mac address and which ports are open on that IP address and it is also maintaining the ip history with time series if these is MAC change on specific IP it will prompt.",
+    "qas": [
+      {
+        "id": "00001",
+        "is_impossible": true,
+        "question": "What is use of IPAM in MonetX?",
+        "answers": [
+          {
+            "text": "In this module MonetX is fetching data of configured IP on the network devices physical interfaces SVi and Virtual interfaces LIKE  HSRP, VRRP & LB virtual IP. It is also s the interface description, vlan name, subnet, Subnets mask and the status of the physical interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured. Mac address and which ports are open on that IP address and it is also maintaining the ip history with time series if these is MAC change on specific IP it will prompt.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In the monitoring module MonetX is monitoring all added devices interface so it will show those interface which are highly utilized.",
+    "qas": [
+      {
+        "id": "00002",
+        "is_impossible": true,
+        "question": "How are top 10 subnet by IP address are displayed on dashboard?",
+        "answers": [
+          {
+            "text": "In the monitoring module MonetX is monitoring all added devices interface so it will show those interface which are highly utilized.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM module MonetX is scanning through NMAP and getting the data of open TCP ports on specific IP, it is also beneficial for security purpose it will show also the unsecured opened port in your environment",
+    "qas": [
+      {
+        "id": "00004",
+        "is_impossible": true,
+        "question": "What is TCP open port graph displaying?",
+        "answers": [
+          {
+            "text": "In IPAM module MonetX is Scanning through NMAP and getting the data of open TCP ports on specific IP, it is also beneficial for security purpose it will show also the unsecured opened port in your environment",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM dashboard there is widget called Ip availability summary  you can directly go to used and unused IP by just  single click",
+    "qas": [
+      {
+        "id": "00005",
+        "is_impossible": true,
+        "question": "What is Ip availability summary showing?",
+        "answers": [
+          {
+            "text": "In IPAM dashboard there is widget called Ip availability summary you can directly go to used and unused IP by just single click",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM dashboard there is widget called subnet summary is show how many subnets you manually enter for scanning and how many subnets discovered from devices",
+    "qas": [
+      {
+        "id": "00006",
+        "is_impossible": true,
+        "question": "What is subnet summary showing?",
+        "answers": [
+          {
+            "text": "In IPAM dashboard there is widget called subnet summary is show how many subnets you manually enter for scanning and how many subnets discovered from devices",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM dashboard there is widget called Top 10 subnets by IP used it will show the subnet detail in %",
+    "qas": [
+      {
+        "id": "00007",
+        "is_impossible": true,
+        "question": "How can I get top 10 subnet by ip address used?",
+        "answers": [
+          {
+            "text": "In IPAM dashboard there is widget called Top 10 subnets by IP used it will show the subnet detail in %",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM dashboard there is widget called Ip availibilty summary  you can directly go to used and unused IP by just  single click",
+    "qas": [
+      {
+        "id": "00008",
+        "is_impossible": true,
+        "question": "How can we get ip availability summary of all devices?",
+        "answers": [
+          {
+            "text": "In IPAM dashboard there is widget called Ip availibilty summary  you can directly go to used and unused IP by just  single click",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM dashboard there is widget called Ip availibilty summary  you can directly go to used and unused IP by just  single click and filter the subnet which you want to check",
+    "qas": [
+      {
+        "id": "00009",
+        "is_impossible": true,
+        "question": "How can we get ip availability summary of single device?",
+        "answers": [
+          {
+            "text": "In IPAM dashboard there is widget called Ip availibilty summary  you can directly go to used and unused IP by just  single click and filter the subnet which you want to check",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In subnet table ad single ip or complete subnet and click scan button  and check the ports option it will scan the ports on single ip or on complete subnet",
+    "qas": [
+      {
+        "id": "00010",
+        "is_impossible": true,
+        "question": "How can we get TCP open ports?",
+        "answers": [
+          {
+            "text": "In subnet table ad single ip or complete subnet and click scan button  and check the ports option it will scan the ports on single ip or on complete subnet",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In subnet table the option to discover a subnet from device and scan its DNS resolution, TCP open ports and MAC",
+    "qas": [
+      {
+        "id": "00011",
+        "is_impossible": true,
+        "question": "What does discovered from device mean in subnet summary?",
+        "answers": [
+          {
+            "text": "In subnet table the option to discover a subnet from device and scan its DNS resolution, TCP open ports and MAC",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Login to MonetX click IPAM click subnet then add subnet with netmask, name and location then click on scan",
+    "qas": [
+      {
+        "id": "00012",
+        "is_impossible": true,
+        "question": "How can I manually add subnet summary?",
+        "answers": [
+          {
+            "text": "Login to MonetX click IPAM click subnet then add subnet with netmask, name and location then click on scan",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Once you add the or discovered the subnet in IPAM it will also resolve the IP with FQDN if there is no entry available in DNS server it will show ither wise it will not resolved",
+    "qas": [
+      {
+        "id": "00013",
+        "is_impossible": true,
+        "question": "What do you mean by DNS not received?",
+        "answers": [
+          {
+            "text": "Once you add the or discovered the subnet in IPAM it will also resolve the IP with FQDN if there is no entry available in DNS server it will show ither wise it will not resolved",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Once you add the or discovered the subnet in IPAM it will also resolve the IP with FQDN if there is entry available in DNS server it will show ither wise it will resolved",
+    "qas": [
+      {
+        "id": "00014",
+        "is_impossible": true,
+        "question": "What do you mean by DNS received?",
+        "answers": [
+          {
+            "text": "Once you add the or discovered the subnet in IPAM it will also resolve the IP with FQDN if there is entry available in DNS server it will show ither wise it will resolved",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In this module MonetX is fetching data of configured IP on the network devices physical interfaces SVi and Virtual interfaces LIKE  HSRP, VRRP & LB virtual IP. It is also s the interface description, vlan name, subnet, Subnets mask and the status of the physical interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured. Mac address and which ports are open on that IP address and it is also maintainin the ip history with time series if these is MAC change on specific IP it will prompt.",
+    "qas": [
+      {
+        "id": "00016",
+        "is_impossible": true,
+        "question": "What is IPAM?",
+        "answers": [
+          {
+            "text": "In this module MonetX is fetching data of configured IP on the network devices physical interfaces SVi and Virtual interfaces LIKE  HSRP, VRRP & LB virtual IP. It is also s the interface description, vlan name, subnet, Subnets mask and the status of the physical interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured. Mac address and which ports are open on that IP address and it is also maintainin the ip history with time series if these is MAC change on specific IP it will prompt.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Bulk import Via Excel Sheel  Click Export Templete --- Fill the Excel Sheet ---  Import Excel --- Select devices and click on board --- Decives will be onboarded sucessfully.",
+    "qas": [
+      {
+        "id": "00018",
+        "is_impossible": true,
+        "question": "How can we export devices in IPAM?",
+        "answers": [
+          {
+            "text": "Bulk import Via Excel Sheel  Click Export Templete --- Fill the Excel Sheet ---  Import Excel --- Select devices and click on board --- Decives will be onboarded sucessfully.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "While addind device click on device type it will show which type of devices you can onboard on monetX",
+    "qas": [
+      {
+        "id": "00019",
+        "is_impossible": true,
+        "question": "What devices can be added in IPAM?",
+        "answers": [
+          {
+            "text": "While addind device click on device type it will show which type of devices you can onboard on monetX",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "adding a Single Device and Bulk import Via Excel Sheel",
+    "qas": [
+      {
+        "id": "00021",
+        "is_impossible": true,
+        "question": "What are different sources for adding device?",
+        "answers": [
+          {
+            "text": "adding a Single Device and Bulk import Via Excel Sheel",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": " adding a Single Device Click Atom --- Add Atom --- Fill out the all required details ---  Add password Group --- Done  Select the device ---  click onboard --- Decives will be onboarded sucessfully.",
+    "qas": [
+      {
+        "id": "00022",
+        "is_impossible": true,
+        "question": "How can we add device from atom?",
+        "answers": [
+          {
+            "text": " adding a Single Device Click Atom --- Add Atom --- Fill out the all required details ---  Add password Group --- Done  Select the device ---  click onboard --- Decives will be onboarded sucessfully.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Atom --- Password Group --- Add password Group --- fill the details --- Done",
+    "qas": [
+      {
+        "id": "00023",
+        "is_impossible": true,
+        "question": "What is password group when adding a new device?",
+        "answers": [
+          {
+            "text": "Atom --- Password Group --- Add password Group --- fill the details --- Done",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "You need to re onboard",
+    "qas": [
+      {
+        "id": "00025",
+        "is_impossible": true,
+        "question": "Can we recover deleted device?",
+        "answers": [
+          {
+            "text": "You need to re onboard",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "MonetX is a Network automation tool it have different modules like Dynamic inventory MGMT, IPAM, DCCM, RBAC Monitoring",
+    "qas": [
+      {
+        "id": "00026",
+        "is_impossible": true,
+        "question": "What is MonetX?",
+        "answers": [
+          {
+            "text": "MonetX is a Network automation tool it have different modules like Dynamic inventory MGMT, IPAM, DCCM, RBAC Monitoring",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Dynamic inventory MGMT, IPAM, DCCM, RBAC Monitoring",
+    "qas": [
+      {
+        "id": "00027",
+        "is_impossible": true,
+        "question": "What's the features of MonetX?",
+        "answers": [
+          {
+            "text": "Dynamic inventory MGMT, IPAM, DCCM, RBAC Monitoring",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "MonetX users can be Managers, Admins, Network Engineer, System Engineers and Planning engineers",
+    "qas": [
+      {
+        "id": "00028",
+        "is_impossible": true,
+        "question": "Who uses the MonetX?",
+        "answers": [
+          {
+            "text": "MonetX users can be Managers, Admins, Network Engineer, System Engineers and Planning engineers",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "It is highly customizable, it can give shape to any idea",
+    "qas": [
+      {
+        "id": "00029",
+        "is_impossible": true,
+        "question": "Can I customize the menu with my own uses of MonetX?",
+        "answers": [
+          {
+            "text": "It is highly customizable, it can give shape to any idea",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "SolarWinds, Manage Engine",
+    "qas": [
+      {
+        "id": "00030",
+        "is_impossible": true,
+        "question": "Who are the compitetors of MonetX?",
+        "answers": [
+          {
+            "text": "SolarWinds, Manage Engine",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "It is highly customizable, Secure, Low Cost, with free Demo installation for 30 days",
+    "qas": [
+      {
+        "id": "00032",
+        "is_impossible": true,
+        "question": "What is  the unique things of MonetX?",
+        "answers": [
+          {
+            "text": "It is highly customizable, Secure, Low Cost, with free Demo installation for 30 days",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Inventory\nTo deal with rapid technological advancements, businesses often make changes to their network infrastructure, which can create a lot of problems. Manually tracking and compiling data is a time-consuming process that often leads to overlooking devices, entering data incorrectly, and making compilation errors. Therefore, every business needs a network inventory management tool to organize and manage network configurations. When it comes to managing network devices and organizing network assets to track configurations, a network inventory management software is vital.\nLet's look at the different components that make up holistic network inventory management system:\n\nThere 2 methods to add device in MonetX 1: Static one be one & 2: Import excel sheet (Atom) which contains list of devices such as IP address, Location, Rack detail, SW type ETC. Once devices are added in Atom with static information. Tool have button to onboard device this algorithm will communicate will devices over the (SSH, APIs, SMNP) and get dynamic information from the devices like status, Serial No, PN code, patch Version, Manufacturer, vendor and HW version along with this our system have capability to fetch information of  boards, sub Boards and SFPs, like if the there is a stack switch it will show the stack members and all information of each stack member. In sub boards our tool is dynamically fetching information power supplies, fan tray, ethernet and SFP module, supervisor engines and route processors. In SFP our tool is fetching information of each SFP like SFP model, Speed, Mode, Serial No. Manufacturer, wave length, PN code and the name of the port where it is connected.\n\n\nData Center Capacity Management\nIn DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc\n\nIPAM\nIn this module MonetX is fetching data of configured IP on the network devices physical interfaces, VLAN interfaces and Virtual IP like HSRP or VRRP. It is also storing the interface description, vlan name, subnet, Subnets mask and the status of the physical and the admin interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured and which ports are open on that IP address",
+    "qas": [
+      {
+        "id": "00034",
+        "is_impossible": true,
+        "question": "What is the requirements of installing the MonetX?",
+        "answers": [
+          {
+            "text": "Inventory\nTo deal with rapid technological advancements, businesses often make changes to their network infrastructure, which can create a lot of problems. Manually tracking and compiling data is a time-consuming process that often leads to overlooking devices, entering data incorrectly, and making compilation errors. Therefore, every business needs a network inventory management tool to organize and manage network configurations. When it comes to managing network devices and organizing network assets to track configurations, a network inventory management software is vital.\nLet's look at the different components that make up holistic network inventory management system:\n\nThere 2 methods to add device in MonetX 1: Static one be one & 2: Import excel sheet (Atom) which contains list of devices such as IP address, Location, Rack detail, SW type ETC. Once devices are added in Atom with static information. Tool have button to onboard device this algorithm will communicate will devices over the (SSH, APIs, SMNP) and get dynamic information from the devices like status, Serial No, PN code, patch Version, Manufacturer, vendor and HW version along with this our system have capability to fetch information of  boards, sub Boards and SFPs, like if the there is a stack switch it will show the stack members and all information of each stack member. In sub boards our tool is dynamically fetching information power supplies, fan tray, ethernet and SFP module, supervisor engines and route processors. In SFP our tool is fetching information of each SFP like SFP model, Speed, Mode, Serial No. Manufacturer, wave length, PN code and the name of the port where it is connected.\n\n\nData Center Capacity Management\nIn DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc\n\nIPAM\nIn this module MonetX is fetching data of configured IP on the network devices physical interfaces, VLAN interfaces and Virtual IP like HSRP or VRRP. It is also storing the interface description, vlan name, subnet, Subnets mask and the status of the physical and the admin interface up or down. The benefit of this module is to track any ip from the dashboard & does not need to login to device. in monetX it have capability to add DHCP server as a node and fetch the IP scopes information like Scope name, Lease, used addresses, free addresses etc. and you can manually and  dynamically discover subnets in your environment to get there IP details like where it is configured and which ports are open on that IP address",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Yes, also Extravis offers trainings",
+    "qas": [
+      {
+        "id": "00036",
+        "is_impossible": true,
+        "question": "Is MonetX is easy to use?",
+        "answers": [
+          {
+            "text": "Yes, also Extravis offers trainings",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "With monetX you have manage inventory dynamically and it can give holistic view of your infrastructure",
+    "qas": [
+      {
+        "id": "00037",
+        "is_impossible": true,
+        "question": "Tell me why is MonetX is good for my company?",
+        "answers": [
+          {
+            "text": "With monetX you have manage inventory dynamically and it can give holistic view of your infrastructure",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Yes, monetX have both cababilty cloud and on prem",
+    "qas": [
+      {
+        "id": "00038",
+        "is_impossible": true,
+        "question": "Is MonetX is cloud based?",
+        "answers": [
+          {
+            "text": "Yes, monetX have both cababilty cloud and on prem",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "for Basic features no need for trainings but for advance feature it require 1 day workshop",
+    "qas": [
+      {
+        "id": "00039",
+        "is_impossible": true,
+        "question": "If I signup MonetX. Is there sepecfic training required ?",
+        "answers": [
+          {
+            "text": "for Basic features no need for trainings but for advance feature it require 1 day workshop",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "No its Extravis in house product",
+    "qas": [
+      {
+        "id": "00041",
+        "is_impossible": true,
+        "question": "Is MonetX is Open Source?",
+        "answers": [
+          {
+            "text": "No its Extravis in house product",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc",
+    "qas": [
+      {
+        "id": "00043",
+        "is_impossible": true,
+        "question": "What is MonetX DCM?",
+        "answers": [
+          {
+            "text": "In DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes righnow MonetX have capabilty to integrated with major 13 vendors",
+    "qas": [
+      {
+        "id": "00044",
+        "is_impossible": true,
+        "question": "Is MonetX is mange or integrate multiple vendors?",
+        "answers": [
+          {
+            "text": "yes righnow MonetX have capabilty to integrated with major 13 vendors",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes if the deployement is cloud base it can be accessable from anywhere",
+    "qas": [
+      {
+        "id": "00045",
+        "is_impossible": true,
+        "question": "Is MonetX accessable anywhere? or in specific location?",
+        "answers": [
+          {
+            "text": "yes if the deployement is cloud base it can be accessable from anywhere",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "For on prem deployment you need VPN but on cloud deployment it can accessed withot VPN",
+    "qas": [
+      {
+        "id": "00046",
+        "is_impossible": true,
+        "question": "How can we access MonetX without VPN?",
+        "answers": [
+          {
+            "text": "For on prem deployment you need VPN but on cloud deployment it can accessed withot VPN",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Complete monitx  is developed for big telcos  and enterprise but monitoring and inventory module is suitable for small orgaization",
+    "qas": [
+      {
+        "id": "00047",
+        "is_impossible": true,
+        "question": "Can MonetX be used for a small organization?",
+        "answers": [
+          {
+            "text": "Complete monitx  is developed for big telcos  and enterprise but monitoring and inventory module is suitable for small orgaization",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "IPAM is used for IPAM management in you infrastructure",
+    "qas": [
+      {
+        "id": "00048",
+        "is_impossible": true,
+        "question": "For what porpose is the IPAM Module used?",
+        "answers": [
+          {
+            "text": "IPAM is used for IPAM management in you infrastructure",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes All module have separate Back end, front end and DB it can be used sepratly",
+    "qas": [
+      {
+        "id": "00049",
+        "is_impossible": true,
+        "question": "Can I use a specific module from Monetx?",
+        "answers": [
+          {
+            "text": "yes All module have separate Back end, front end and DB it can be used sepratly",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "MonetX have both options once you add data in ATOM it can be utalizaed in all modules but it can be uploaded for single module also",
+    "qas": [
+      {
+        "id": "00050",
+        "is_impossible": true,
+        "question": "If I am using multiple modules, do I have to upload data for all the modules separately?",
+        "answers": [
+          {
+            "text": "MonetX have both options once you add data in ATOM it can be utalizaed in all modules but it can be uploaded for single module also",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "It is very easy process Support team is available 24/7 ",
+    "qas": [
+      {
+        "id": "00051",
+        "is_impossible": true,
+        "question": "What if I want to shift from one module to multiple modules?",
+        "answers": [
+          {
+            "text": "It is very easy process Support team is available 24/7 ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "MonetX is tested on 6000 devices ",
+    "qas": [
+      {
+        "id": "00053",
+        "is_impossible": true,
+        "question": "How many maximum devices does the Model Supports?",
+        "answers": [
+          {
+            "text": "MonetX is tested on 6000 devices ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes ",
+    "qas": [
+      {
+        "id": "00054",
+        "is_impossible": true,
+        "question": "Can I see status of the devices in the portal?",
+        "answers": [
+          {
+            "text": "yes ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes",
+    "qas": [
+      {
+        "id": "00055",
+        "is_impossible": true,
+        "question": "Can I Dismantle the devices that are not in use?",
+        "answers": [
+          {
+            "text": "yes",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes",
+    "qas": [
+      {
+        "id": "00056",
+        "is_impossible": true,
+        "question": "Can I Activate a device after Dismantling it?",
+        "answers": [
+          {
+            "text": "yes",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "To deal with rapid technological advancements, businesses often make changes to their network infrastructure, which can create a lot of problems. Manually tracking and compiling data is a time-consuming process that often leads to overlooking devices, entering data incorrectly, and making compilation errors. Therefore, every business needs a network inventory management tool to organize and manage network configurations. When it comes to managing network devices and organizing network assets to track configurations, a network inventory management software is vital.\nLet's look at the different components that make up holistic network inventory management system:\n\nThere 2 methods to add device in MonetX 1: Static one be one & 2: Import excel sheet (Atom) which contains list of devices such as IP address, Location, Rack detail, SW type ETC. Once devices are added in Atom with static information. Tool have button to onboard device this algorithm will communicate will devices over the (SSH, APIs, SMNP) and get dynamic information from the devices like status, Serial No, PN code, patch Version, Manufacturer, vendor and HW version along with this our system have capability to fetch information of  boards, sub Boards and SFPs, like if the there is a stack switch it will show the stack members and all information of each stack member. In sub boards our tool is dynamically fetching information power supplies, fan tray, ethernet and SFP module, supervisor engines and route processors. In SFP our tool is fetching information of each SFP like SFP model, Speed, Mode, Serial No. Manufacturer, wave length, PN code and the name of the port where it is connected.",
+    "qas": [
+      {
+        "id": "00057",
+        "is_impossible": true,
+        "question": "For what purpose is the UAM Module used?",
+        "answers": [
+          {
+            "text": "To deal with rapid technological advancements, businesses often make changes to their network infrastructure, which can create a lot of problems. Manually tracking and compiling data is a time-consuming process that often leads to overlooking devices, entering data incorrectly, and making compilation errors. Therefore, every business needs a network inventory management tool to organize and manage network configurations. When it comes to managing network devices and organizing network assets to track configurations, a network inventory management software is vital.\nLet's look at the different components that make up holistic network inventory management system:\n\nThere 2 methods to add device in MonetX 1: Static one be one & 2: Import excel sheet (Atom) which contains list of devices such as IP address, Location, Rack detail, SW type ETC. Once devices are added in Atom with static information. Tool have button to onboard device this algorithm will communicate will devices over the (SSH, APIs, SMNP) and get dynamic information from the devices like status, Serial No, PN code, patch Version, Manufacturer, vendor and HW version along with this our system have capability to fetch information of  boards, sub Boards and SFPs, like if the there is a stack switch it will show the stack members and all information of each stack member. In sub boards our tool is dynamically fetching information power supplies, fan tray, ethernet and SFP module, supervisor engines and route processors. In SFP our tool is fetching information of each SFP like SFP model, Speed, Mode, Serial No. Manufacturer, wave length, PN code and the name of the port where it is connected.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes Admin have rights",
+    "qas": [
+      {
+        "id": "00058",
+        "is_impossible": true,
+        "question": "Will the portal provide me access to change the status of devices and their work order?",
+        "answers": [
+          {
+            "text": "yes Admin have rights",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "There are multiple ways monitX is using SSH, SNMP, API",
+    "qas": [
+      {
+        "id": "00059",
+        "is_impossible": true,
+        "question": "How does the portal access the devices?",
+        "answers": [
+          {
+            "text": "There are multiple ways monitX is using SSH, SNMP, API",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "on backend monitX have poller running that will collect the data from devices",
+    "qas": [
+      {
+        "id": "00061",
+        "is_impossible": true,
+        "question": "How does the Modules get data of different devices?",
+        "answers": [
+          {
+            "text": "on backend monitX have poller running that will collect the data from devices",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "yes on Admin page you can add user and roles",
+    "qas": [
+      {
+        "id": "00062",
+        "is_impossible": true,
+        "question": "Can I register multiple users on multiple Modules?",
+        "answers": [
+          {
+            "text": "yes on Admin page you can add user and roles",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "at the time of onboarding if devices get fails to onboard it will tell you the reason ",
+    "qas": [
+      {
+        "id": "00064",
+        "is_impossible": true,
+        "question": "What of all the failed devices and how they are being managed?",
+        "answers": [
+          {
+            "text": "at the time of onboarding if devices get fails to onboard it will tell you the reason ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "read only users have limited access",
+    "qas": [
+      {
+        "id": "00066",
+        "is_impossible": true,
+        "question": "Why are the edit button and check box options are disabled?",
+        "answers": [
+          {
+            "text": "read only users have limited access",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Export template will give you specimen of excel sheet that what data you need to add, and export option will export will data of devices",
+    "qas": [
+      {
+        "id": "00070",
+        "is_impossible": true,
+        "question": "What is difference betweeen export and export template in atom?",
+        "answers": [
+          {
+            "text": "Export template will give you specimen of excel sheet that what data you need to add, and export option will export will data of devices",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Click on UAM --- Site --- add Sites --- Fill all the details --- Done ",
+    "qas": [
+      {
+        "id": "00073",
+        "is_impossible": true,
+        "question": "How can we add new site name in atom?",
+        "answers": [
+          {
+            "text": "Click on UAM --- Site --- add Sites --- Fill all the details --- Done ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Click on UAM --- Rack --- add Rack --- Fill all the details --- Done ",
+    "qas": [
+      {
+        "id": "00076",
+        "is_impossible": true,
+        "question": "How can we add new rack name?",
+        "answers": [
+          {
+            "text": "Click on UAM --- Rack --- add Rack --- Fill all the details --- Done ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": " Atom --- Password Group --- Add password Group --- fill the details --- Done",
+    "qas": [
+      {
+        "id": "00077",
+        "is_impossible": true,
+        "question": "How can we add new password group?",
+        "answers": [
+          {
+            "text": " Atom --- Password Group --- Add password Group --- fill the details --- Done",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "new device type will be added by support team",
+    "qas": [
+      {
+        "id": "00078",
+        "is_impossible": true,
+        "question": "How can we add new device type?",
+        "answers": [
+          {
+            "text": "new device type will be added by support team",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "at the time of filling data just add the password group profile name in password section",
+    "qas": [
+      {
+        "id": "00079",
+        "is_impossible": true,
+        "question": "How can we assign different password group to same devices",
+        "answers": [
+          {
+            "text": "at the time of filling data just add the password group profile name in password section",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Export template will give you specimen of excel sheet that what data you need to add, and export option will export will data of devices",
+    "qas": [
+      {
+        "id": "00081",
+        "is_impossible": true,
+        "question": "Why are we exporting template in atom?",
+        "answers": [
+          {
+            "text": "Export template will give you specimen of excel sheet that what data you need to add, and export option will export will data of devices",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "new vendor will be added by support team",
+    "qas": [
+      {
+        "id": "00082",
+        "is_impossible": true,
+        "question": "How can we add new vendors?",
+        "answers": [
+          {
+            "text": "new vendor will be added by support team",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "in all modules",
+    "qas": [
+      {
+        "id": "00083",
+        "is_impossible": true,
+        "question": "Where atom can be used?",
+        "answers": [
+          {
+            "text": "in all modules",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "if you have multiple devices with same credentials you just need to attach password group it will work for all devices",
+    "qas": [
+      {
+        "id": "00084",
+        "is_impossible": true,
+        "question": "what is purpose of password group?",
+        "answers": [
+          {
+            "text": "if you have multiple devices with same credentials you just need to attach password group it will work for all devices",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": " adding a Single Device Click Atom --- Add Atom --- Fill out the all required details ---  Add password Group --- Done",
+    "qas": [
+      {
+        "id": "00085",
+        "is_impossible": true,
+        "question": "How to add device in monetX?",
+        "answers": [
+          {
+            "text": " adding a Single Device Click Atom --- Add Atom --- Fill out the all required details ---  Add password Group --- Done",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Click on UAM --- Site --- add Sites --- Fill all the details --- Done ",
+    "qas": [
+      {
+        "id": "00086",
+        "is_impossible": true,
+        "question": "How to add site in monetX?",
+        "answers": [
+          {
+            "text": "Click on UAM --- Site --- add Sites --- Fill all the details --- Done ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Click on UAM --- Rack --- add Sites --- Fill all the details --- Done ",
+    "qas": [
+      {
+        "id": "00087",
+        "is_impossible": true,
+        "question": "How to add racks in monetX?",
+        "answers": [
+          {
+            "text": "Click on UAM --- Rack --- add Sites --- Fill all the details --- Done ",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Bulk import Via Excel Sheel  Click Export Templete --- Fill the Excel Sheet ---  Import Excel --- Select devices and click on board --- Decives will be onboarded sucessfully.",
+    "qas": [
+      {
+        "id": "00088",
+        "is_impossible": true,
+        "question": "How can we add multiple device for on",
+        "answers": [
+          {
+            "text": "Bulk import Via Excel Sheel  Click Export Templete --- Fill the Excel Sheet ---  Import Excel --- Select devices and click on board --- Decives will be onboarded sucessfully.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Cisco, Juniper, Palo-alto, Arista, A10, F5 and many major vendors",
+    "qas": [
+      {
+        "id": "00089",
+        "is_impossible": true,
+        "question": "What are supported devices in MonetX?",
+        "answers": [
+          {
+            "text": "Cisco, Juniper, Paloalto, Arista, A10, F5 and many major vendors",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "but it will be failed on onboard",
+    "qas": [
+      {
+        "id": "00090",
+        "is_impossible": true,
+        "question": "Can I add an unsupported device in monetX?",
+        "answers": [
+          {
+            "text": "but it will be failed on boarding",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Contact  supports",
+    "qas": [
+      {
+        "id": "00091",
+        "is_impossible": true,
+        "question": "My device is in list of supported device but I can't onboard it.",
+        "answers": [
+          {
+            "text": "Contact  supports",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Small Form-factor Pluggable is a compact, hot-pluggable network interface module format used for both telecommunication and data communications applications. An SFP interface on networking hardware is a modular slot for a media-specific transceiver, such as for a fiber-optic cable or a copper cable",
+    "qas": [
+      {
+        "id": "00099",
+        "is_impossible": true,
+        "question": "What is SFPS?",
+        "answers": [
+          {
+            "text": "Small Form-factor Pluggable is a compact, hot-pluggable network interface module format used for both telecommunication and data communications applications. An SFP interface on networking hardware is a modular slot for a media-specific transceiver, such as for a fiber-optic cable or a copper cable",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "In IPAM montX have ability to add DNS server and it will show its zones and DNS records",
+    "qas": [
+      {
+        "id": "00104",
+        "is_impossible": true,
+        "question": "DNS Services mean?",
+        "answers": [
+          {
+            "text": "In IPAM montX have ability to add DNS server and it will show its zones and DNS records",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Data Center Capacity Management\nIn DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc",
+    "qas": [
+      {
+        "id": "00105",
+        "is_impossible": true,
+        "question": "What is DCM?",
+        "answers": [
+          {
+            "text": "Data Center Capacity Management\nIn DCM module our tool fetching the information of total interface counts, connected, and not connected ports counts & also It will show the count of all unused SFPs for all variations like 1G, 10G, 40G and 100G. With this data you can do any type of analytics like total unused SFP, total Connected ports etc",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Network monitoring is the use of a system that constantly monitors a computer network for slow or failing components and that notifies the network administrator in case of outages or other trouble. Network monitoring is part of network management.",
+    "qas": [
+      {
+        "id": "00106",
+        "is_impossible": true,
+        "question": "What is monitoring?",
+        "answers": [
+          {
+            "text": "Network monitoring is the use of a system that constantly monitors a computer network for slow or failing components and that notifies the network administrator in case of outages or other trouble. Network monitoring is part of network management.",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "in admin page you can see the failed devices and the reason",
+    "qas": [
+      {
+        "id": "00107",
+        "is_impossible": true,
+        "question": "What do failed devices display?",
+        "answers": [
+          {
+            "text": "in admin page you can see the failed devices and the reason",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "in Admin module Admin used have rights to change password",
+    "qas": [
+      {
+        "id": "00109",
+        "is_impossible": true,
+        "question": "How can a user change their password?",
+        "answers": [
+          {
+            "text": "in Admin module Admin used have rights to change password",
+            "answer_start": 0
+          }
+        ]
+      }
+    ]
+  }
+]
